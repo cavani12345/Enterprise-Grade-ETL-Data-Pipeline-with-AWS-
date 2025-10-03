@@ -3,6 +3,7 @@
   # 2- AWS Glue job to process the raw data files
   # 3- AWS Glue Crawler to crawl and catalog the curate data
   # 4- AWS Triiger to schedule AWS Glue Job
+  
 
 AWSTemplateFormatVersion: '2010-09-09'
 Description: 'AWS Cloudformation Template to create AWS Crawler, S3, and Glue Job'
